@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers[:suite_a] && passengers.find {|word| word[0] = "A"}
+  passengers[:suite_a] ##&& passengers.find {|word| word[0] = "A"}
 end
